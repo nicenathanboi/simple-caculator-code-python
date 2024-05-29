@@ -1,0 +1,66 @@
+running = True
+while running:
+  print"press one for addition"
+  print"press two for subtraction"
+  print"press three for multiplication"
+  print"press four for division"
+  print"press five for exponents"
+  print"press six for square root"
+  print"press seven for precent to decimal"
+  cmd = int(input("enter a number: "));
+  if cmd == 1:
+    print"addition"
+    
+    num2 = float(input("enter second number: "))
+ 
+    result = num1 +num2
+    print""
+    print num1," + ",num2," = ",result
+    print""
+  elif cmd == 2:
+    print"subtraction"
+    num1 = float(input("enter first number: "))
+    num2 = float(input("enter second number: "))
+    result = num1 - num2
+    print""
+    print num1," - ",num2," = ",result
+    print""
+  elif cmd == 3:
+    print"multiplication"
+    num1 = float(input("enter first number: "))
+    num2 = float(input("enter second number: "))
+    result = num1 * num2
+    print""
+    print num1," * ",num2," = ",result
+    print""
+  elif cmd == 4:
+   print"division"
+   num1 = float(input("enter first number: "))
+   num2 = float(input("enter second number: "))
+   result = num1 / num2
+   print""
+   print num1," / ",num2," = ",result
+   print""
+  elif cmd == 5:
+    print"exponents"
+    num1 = float(input("enter first number: "))
+    num2 = float(input("enter second number: "))
+    result = num1 ** num2
+    print""
+    print num1," to the power of ",num2," = ",result
+    print""
+  elif cmd == 6:
+     print"square root"
+     num1 = float(input("enter first number: "))
+     from math import sqrt
+     result = sqrt(num1)
+     print""
+     print " the square root of ",num1," = ",result
+     print"" 
+  elif cmd == 7:
+    print"precent"
+    num1 = float(input("enter first number: "))
+    result = num1 / 100
+    print""
+    print " the desmial of",num1," = ",result
+    print"" 
